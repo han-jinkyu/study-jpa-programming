@@ -3,6 +3,8 @@ package com.jpa.study.domain;
 public class Member {
     private String memberId;
     private String name;
+    private String tel;
+    private Team team;
 
     public String getMemberId() {
         return memberId;
@@ -18,5 +20,21 @@ public class Member {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getTel() {
+        return tel;
+    }
+
+    public void setTel(String tel) {
+        this.tel = tel;
+    }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
     }
 }
