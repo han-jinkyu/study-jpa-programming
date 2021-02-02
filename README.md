@@ -4,3 +4,4 @@
 ## 목차
 
 1. [JPA 소개](/docs/01/index.md)
+2. [JPA 시작](/docs/02/index.md)
