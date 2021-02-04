@@ -1,31 +1,45 @@
 package com.jpa.study;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "MEMBER")
 public class Member {
-    private String memberId;
-    private String name;
-    private String tel;
 
-    public String getMemberId() {
-        return memberId;
+    @Id
+    @Column(name = "ID")
+    private String id;
+
+    @Column(name = "NAME")
+    private String username;
+
+    // 매핑 정보가 없는 필드
+    private Integer age;
+
+    public String getId() {
+        return id;
     }
 
-    public void setMemberId(String memberId) {
-        this.memberId = memberId;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public String getTel() {
-        return tel;
+    public Integer getAge() {
+        return age;
     }
 
-    public void setTel(String tel) {
-        this.tel = tel;
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
