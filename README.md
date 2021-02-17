@@ -6,3 +6,4 @@
 1. [JPA 소개](/docs/01/index.md)
 2. [JPA 시작](/docs/02/index.md)
 3. [영속성 관리](/docs/03/index.md)
+4. [엔티티 매핑](/docs/04/index.md)
