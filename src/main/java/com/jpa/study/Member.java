@@ -31,6 +31,9 @@ public class Member {
     @Lob
     private String description;
 
+    @ManyToOne
+    private Team team;
+
     public String getId() {
         return id;
     }
@@ -85,5 +88,17 @@ public class Member {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public void setTeam(Team team) {
+        if (this.team != null) {
+            this.team.getMembers().remove(this);
+        }
+        this.team = team;
+        team.getMembers().add(this);
     }
 }
