@@ -8,3 +8,5 @@
 3. [영속성 관리](/docs/03/index.md)
 4. [엔티티 매핑](/docs/04/index.md)
 5. [연관관계 매핑 기초](/docs/05/index.md)
+6. [다양한 연관관계 매핑](/docs/06/index.md)
+7. [고급 매핑](/docs/07/index.md)
