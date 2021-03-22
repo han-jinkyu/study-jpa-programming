@@ -1,11 +1,13 @@
-package example.practice.entity;
+package example.practice.entity.item;
+
+import example.practice.entity.Category;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Item {
+public abstract class Item {
 
     @Id
     @GeneratedValue

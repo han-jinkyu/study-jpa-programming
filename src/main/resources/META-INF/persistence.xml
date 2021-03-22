@@ -26,10 +26,16 @@
     </persistence-unit>
 
     <persistence-unit name="practice">
+        <class>example.practice.entity.Category</class>
+        <class>example.practice.entity.Delivery</class>
+        <class>example.practice.entity.DeliveryStatus</class>
         <class>example.practice.entity.Member</class>
-        <class>example.practice.entity.Item</class>
         <class>example.practice.entity.Order</class>
         <class>example.practice.entity.OrderItem</class>
+        <class>example.practice.entity.item.Item</class>
+        <class>example.practice.entity.item.Album</class>
+        <class>example.practice.entity.item.Book</class>
+        <class>example.practice.entity.item.Movie</class>
         <properties>
             <!-- 필수 속성 -->
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
