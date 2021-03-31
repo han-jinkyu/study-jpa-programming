@@ -10,3 +10,5 @@
 5. [연관관계 매핑 기초](/docs/05/index.md)
 6. [다양한 연관관계 매핑](/docs/06/index.md)
 7. [고급 매핑](/docs/07/index.md)
+8. [프록시와 연관관계 관리](/docs/08/index.md)
+9. [값 타입](/docs/09/index.md)
