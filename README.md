@@ -12,3 +12,4 @@
 7. [고급 매핑](/docs/07/index.md)
 8. [프록시와 연관관계 관리](/docs/08/index.md)
 9. [값 타입](/docs/09/index.md)
+10. [객체지향 쿼리 언어](/docs/10/index.md)
