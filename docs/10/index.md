@@ -1,7 +1,7 @@
 # 10장 객체지향 쿼리 언어
 
 1. [객체지향 쿼리 소개](./01.md)
-2. JPQL
+2. [JPQL](./02.md)
 3. Criteria
 4. QueryDSL
 5. 네이티브 SQL
