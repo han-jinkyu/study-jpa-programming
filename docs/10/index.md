@@ -3,7 +3,7 @@
 1. [객체지향 쿼리 소개](./01.md)
 2. [JPQL](./02.md)
 3. [Criteria](./03.md)
-4. QueryDSL
+4. [QueryDSL](./04.md)
 5. 네이티브 SQL
 6. 객체지향 쿼리 심화
 
