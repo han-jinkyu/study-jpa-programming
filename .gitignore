@@ -11,7 +11,7 @@ bin/
 .project
 
 ### IntelliJ IDEA ###
-.idea
+practice/.idea
 *.iws
 *.iml
 *.ipr
